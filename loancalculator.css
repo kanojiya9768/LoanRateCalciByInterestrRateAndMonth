@@ -1,0 +1,76 @@
+body{
+    background-color: #000;
+}
+#loancal {
+    display: block;
+    width: 70vw;
+    min-width: 40vw;
+    height: 90vh;
+    min-height: 40vh;
+    margin:1.5rem auto;
+    background-color:rgb(47, 248, 7);
+    color: rgb(14, 13, 13);
+    opacity: .8;
+    border: 5px solid rgb(0, 255, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    animation: rotate .5s linear;
+
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#loancal:hover{
+    opacity: 1;
+    background-color: rgb(154, 253, 6);
+}
+
+h1 { display: block;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    font-size:6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    margin-top: 1rem;
+    }
+    h1:hover{
+        font-family: sans-serif;
+    text-decoration: underline;
+    } 
+
+h2{  
+    display: block;
+    width:55vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+input{
+    display: block;
+    width: 40vw;
+    padding: 7px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
